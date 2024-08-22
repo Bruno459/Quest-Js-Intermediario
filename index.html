@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quest HTML + CSS + JS Intermediario</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+
+<body>
+    <section>
+        <div class="textos">
+            <h2>FICOU COM DÚVIDA? NOS MANDE UMA MENSAGEM!</h2>
+            <p>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de
+                24h.</p>
+        </div>
+
+        <div class="formulario">
+            <ul>
+                <li class="campo-obrigatorio">
+                    <input class="campo-input" type="text" name="nome" id="nome" placeholder="Nome completo *">
+                    <p class="aviso nome preenchido">campo obrigatorio</p>
+                </li>
+                <li class="campo-obrigatorio">
+                    <input class="campo-input" type="text" name="email" id="email" placeholder="Email *">
+                    <p class="aviso email preenchido">campo obrigatorio</p>
+                </li>
+                <li class="campo-obrigatorio">
+                    <input class="campo-input" type="text" name="telefone" id="telefone" placeholder="Telefone *">
+                    <p class="aviso telefone preenchido">campo obrigatorio</p>
+                </li>
+                <li class="campo-obrigatorio">
+                    <input class="campo-input" type="text" name="mensagem" id="mensagem" placeholder="Mensagem *">
+                    <p class="aviso mensagem preenchido">campo obrigatorio</p>
+                </li>
+            </ul>
+            <p>*campos obrigatórios</p>
+            <button type="submit" class="botao-enviar">Enviar</button>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="./src/js/formulario.js"></script>
+</body>
+
+</html>
